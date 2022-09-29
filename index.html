@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="icon" type="image/x-icon" href="assets/calcular.ico.png">
+    <title>Calculadora</title>
+
+</head>
+
+<body>
+    <h1 style="text-align: center">Calculadora</h1>
+    <div class="container my-sm-5 border">
+        <div class="row my-3 justify-content-center">
+            <div class="col d-flex justify-content-center">
+                <input placeholder="Numero 1" id='num1' type="text">
+            </div>
+            <div class="col">
+                <input placeholder="Numero 2" id='num2' type="text">
+            </div>
+        </div>
+
+        <div class="row my-1 text-center">
+            <div class="col">
+                <input class='col' placeholder="Resultado" id='result' type="text">
+            </div>
+        </div>
+        <div>
+            <div class="container-sm">
+                <div class="row my-3">
+                    <div class="col text-center">
+                        <button  class="btn btn-info" id="suma">Suma</button>
+                        <button class="btn btn-info" id="resta">Resta</button>
+                        <button class="btn btn-info" id="multi">Multiplicacion</button>
+                        <button  class="btn btn-info" id="div">Division</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<!-- JS de bootstrap  -->
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+
+</html>
